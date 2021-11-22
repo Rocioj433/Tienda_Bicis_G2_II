@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Guayerd Bikes</title>
+    <!-- LInk To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- link to bootstrap -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link to popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- link to fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- link to sweetalert -->
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <!-- icono nav bar -->
+    <script src="https://kit.fontawesome.com/549a49ca16.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+          <div class="row align-items-stretch justify-content-between">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="logo" class="navbar-brand" href="index.html"
+                >Guayerd<span> Bikes.</span></a
+              >
+              <div class="bx bx-menu" id="menu-icon"></div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-menu">
+                  <li class="navbar-item">
+                    <a href="#shop">SHOP</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="#about">Nosotros</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="#brands">Nuestros Partners</a>
+                  </li>
+                </ul>
+      
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <img
+                        src="img/cart-regular-60.png"
+                        class="nav-link dropdown-toggle img-fluid"
+                        height="70px"
+                        width="70px"
+                        href="#"
+                        id="dropdown01"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      />
+                      <div
+                        id="carrito"
+                        class="dropdown-menu"
+                        aria-labelledby="navbarCollapse"
+                      >
+                        <table id="lista-carrito" class="table">
+                          <thead>
+                            <tr>
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                        </table>
+      
+                        <a
+                          href="#"
+                          id="vaciar-carrito"
+                          class="btn btn-primary btn-block"
+                          >Vaciar Carrito</a
+                        >
+                        <a
+                          href="#"
+                          id="procesar-pedido"
+                          class="btn btn-danger btn-block"
+                          >Procesar Compra</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      
+
+    <main>
+        <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1><Span>Su</Span> confort<br> es nuestra <span>felicidad</span></h1>
+            <p>Tenemos las mejores marcas de bicicletas Scott, Giant, Cannondale y más.<br>Todos los accesorios,
+                componentes y la indumentaria que usted necesita</p>
+        </div>
+    </section>
+    <!-- Shop -->
+    <section class="shop" id="shop">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+        </div>
+
+        <div class="container" id="lista-productos">
+            <!-- todo el producto ven aqui -->
+        </div>
+        </div>
+    </section>
+    <!-- Nosotros -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span>Sobre Nosotros</span>
+            <h2>Guayerd<br>Bikes</h2>
+            <p>Nace en el año 1985 en Rafaela, provincia de Santa Fe, Argentina, como un proyecto del grupo 2, quienes
+                comenzaron con un taller destinado a la reparación de bicicletas en su domicilio particular. Tiempo
+                después las exigencias del mercado los impulsa a fabricar sus propias bicicletas, en un espacio más
+                apropiado. Por este motivo instalan su fábrica de bicicletas en la localidad de Susana, situada a 12 Km
+                de Rafaela.</p>
+            <p> Hoy, la misma cuenta con una dotación de más de 90 trabajadores distribuidos entre administración,
+                fábrica, depósito, local comercial y logística. El esfuerzo y trabajo en equipo hacen que se fabriquen
+                más de 100 mil bicicletas al año, que luego se distribuyen en todo el país.</p>
+            <a href="#shop" class="btn">Lean more.</a>
+        </div>
+    </section>
+    <!-- Marcas -->
+    <section class="brands" id="brands">
+        <div class="heading">
+            <span>Marcas</span>
+            <h2>Nuestros socios</h2>
+        </div>
+        <div class="brands-container">
+            <img src="img/brands_1.jpg" alt="">
+            <img src="img/brands_2.jpg" alt="">
+            <img src="img/brands_3.jpg" alt="">
+            <img src="img/brands_4.jpg" alt="">
+            <img src="img/brands_5.jpg" alt="">
+            <img src="img/brands_6.jpg" alt="">
+        </div>
+    </section>
+    <section class="newsletter" id="contact">
+        <h2>RECIBÍ LAS ÚLTIMAS NOVEDADES</h2>
+        <p>Apúntate a nuestra lista para recibir todas las novedades, ofertas, cupones y promociones!</p>
+        <div class="news-box">
+            <input type="text" placeholder="Ingrese Su Email...">
+            <a href="#" class="btn">Subscribete</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <h2>Guayerd <span>Bikes.</span></h2>
+            <p>Tienda elegida por millones de argentinos</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Servicios</h3>
+            <li><a href="#shop">Productos</a></li>
+            <li><a href="#contact">Ayuda y soporte</a></li>
+            <li><a href="#">Valoranos</a></li>
+            <li><a href="#">Preguntas frecuente</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>Productos</h3>
+            <li><a href="#">BICICLETAS</a></li>
+            <li><a href="#">ACCESORIOS</a></li>
+            <li><a href="#">COMPONENTES</a></li>
+            <li><a href="#">INDUMENTARIA</a></li>
+        </div>
+        <div class="footer-box contact-info">
+            <h3>Contacto</h3>
+            <span>Buenos Aires, Argentina</span>
+            <span>+549 11 5022 7514</span>
+            <span>guayerd.bikes@gmail.com</span>
+
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; Copyright Guayerd Bikes | Tienda de Bicis - 2021. Todos los derechos reservados.</p>
+    </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>
