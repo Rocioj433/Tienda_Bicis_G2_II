@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"marca": "Klatter",
+		"imagen": "./img/bici-01.jpg",
+		"precio": "34.799",
+		"detalles": ["MOUNTAIN BIKE", "COLOR VERDE"]
+	},
+	{
+		"id": 2,
+		"marca": "Olmo Wish",
+		"imagen": "img/bici-02.jpg",
+		"precio": "48.350",
+		"detalles": ["MOUNTAIN BIKE", "COLOR NEGRO"]
+	},
+	{
+		"id": 3,
+		"marca": "Nordic x1.0",
+		"imagen": "img/bici-03.jpg",
+		"precio": "38.390",
+		"detalles": ["MOUNTAIN BIKE", "COLOR NEGRO CON AMARILLO"]
+	},
+	{
+		"id": 4,
+		"marca": "Sunshine",
+		"imagen": "img/bici-04.jpg",
+		"precio": "28.999",
+		"detalles": ["MOUNTAIN BIKE", "COLOR FUCSIA"]
+	},
+	{
+		"id": 5,
+		"marca": "Raleigh Mojave",
+		"imagen": "img/bici-05.jpg",
+		"precio": "41.405",
+		"detalles": ["MOUNTAIN BIKE", "COLOR NEGRO CON ROJO"]
+	},
+	{
+		"id": 6,
+		"marca": "Fire Bird",
+		"imagen": "img/bici-06.jpg",
+		"precio": "50.063",
+		"detalles": ["PORTA PASEO", "COLOR CIAN"]
+	},
+	{
+		"id": 7,
+		"marca": "Volta Razz",
+		"imagen": "img/bici-07.jpg",
+		"precio": "61.500",
+		"detalles": ["MOUNTAIN BIKE", "COLOR NARANJA CON NEGRO"]
+	},
+	{
+		"id": 8,
+		"marca": "Vision",
+		"imagen": "img/bici-08.jpg",
+		"precio": "37.000",
+		"detalles": ["MOUNTAIN BIKE", "COLOR NEGRO CON VERDE"]
+	},
+	{
+		"id": 9,
+		"marca": "Alttitude",
+		"imagen": "img/bici-09.jpg",
+		"precio": "56.000",
+		"detalles": ["MOUNTAIN BIKE", "COLOR AZUL OSCURO"]
+	}
+]
